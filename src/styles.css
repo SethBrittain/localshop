@@ -51,4 +51,18 @@ search-page {
     margin-left: 100px; /* More to the left */
 }
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("assets/fonts/DMsans/dm-sans-latin-500.woff");
+}
+
+@font-face {
+    font-family: "DM Sans Bold";
+    src: url("assets/fonts/DMsans/dm-sans-latin-700.woff");
+}
+
+@font-face {
+    font-family: "DM Serif Text";
+    src: url("assets/fonts/DMSerifText/dm-serif-text-latin-400.woff");
+}

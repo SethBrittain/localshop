@@ -16,7 +16,7 @@ import { CartPageComponent } from './pages/cart-page/cart-page.component';
 import { CheckoutPageComponent } from './pages/checkout-page/checkout-page.component';
 import { SearchService } from './services/search.service';
 import { MatIconModule } from '@angular/material/icon';
-import { FooterComponent } from './nav/footer/footer.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
