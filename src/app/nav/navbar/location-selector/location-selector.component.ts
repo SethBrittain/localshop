@@ -14,6 +14,8 @@ export class LocationSelectorComponent implements OnInit {
   }
 
   toggleLocationDropdown() : void {
+    let dropdowns = document.querySelectorAll('.dropdown-menu');
+    for (let i=0; i<dropdowns.length; i++) { if (dropdowns[i].id != "location-dropdown") dropdowns[i].classList.remove('show'); }
     let dropdown : HTMLButtonElement | null = document.querySelector('#location-dropdown');
     dropdown?.classList.toggle('show');
   }

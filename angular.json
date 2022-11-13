@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css",
+              "material-icons/iconfont/material-icons.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []

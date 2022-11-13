@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cart-button.component.css']
 })
 export class CartButtonComponent implements OnInit {
-  public test : string = 'Cart (0)';
-
   constructor() { }
 
   ngOnInit(): void {

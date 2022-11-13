@@ -1,0 +1,10 @@
+#item-search-bar,
+#item-search-bar:focus {
+    border: none;
+    outline: none;
+}
+
+.search-container {
+    border-radius: .85em;
+    background-color: #F0F0F0;
+}

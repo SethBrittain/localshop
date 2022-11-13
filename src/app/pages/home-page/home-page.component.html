@@ -1,0 +1,27 @@
+<div class="serif fs-1 m-5 d-flex justify-content-center align-items-center header-image-container text-white">
+    <div class="header-image-container-inner">
+        Shop local businesses
+    </div>
+</div>
+<div class="serif fs-1 m-5">Popular Products in Manhattan</div>
+<div class="row m-5">
+    <div class="col-3" *ngFor="let product of popularProducts">
+        <img class="product-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whitewaternow.com%2Fwp-content%2Fuploads%2F2018%2F11%2Fcoffee-beans-freshness-quality.jpg&f=1&nofb=1&ipt=89869076df94de7ee680397fde8e5a7446fcece8252ac356be31ebc2210e668c&ipo=images"/>
+        <div class="w-100">
+            <div class="d-flex align-items-center">
+                <mat-icon class="m-1">store</mat-icon>
+                <span class="mt-1 sans">{{ product.store_name }}</span>
+            </div>
+            <div class="fw-semibold m-1 fs-6 sans">{{ product.product_name }}</div>
+            <div class="m-1 sans">${{ product.product_price }}</div>
+        </div>
+    </div>
+</div>
+<div class="serif fs-1 m-5">Popular Businesses in Manhattan</div>
+<div class="row m-5">
+    <div class="col-3" *ngFor="let store of popularStores">
+        <div class="store-image-container" style="background-image: url({{store.picture_url}})">
+            <div class="fw-semibold m-3 fs-5 sans store-image-container-inner">{{ store.store_name }}</div>
+        </div>
+    </div>
+</div>
