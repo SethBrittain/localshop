@@ -7,6 +7,39 @@ html, body {
     margin: 0 !important;
 }
 
+app-root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+search-page {
+    flex-grow: 1;
+}
+
+search-page {
+    flex-grow: 1;
+}
+
+.sans {
+    font-family: 'DM Sans' !important;
+}
+.serif {
+    font-family: 'DM Serif Text' !important;
+}
+
+mat-icon {
+    filter: contrast(0.2);
+    transform: scale(1.4);
+}
+
+search-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .dropdown-container {
     position: relative;
 }
@@ -17,3 +50,5 @@ html, body {
     left: 0;
     margin-left: 100px; /* More to the left */
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

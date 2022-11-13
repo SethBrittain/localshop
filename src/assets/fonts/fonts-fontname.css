@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url("./DMsans/dm-sans-latin-500.woff");
+}
+
+@font-face {
+    font-family: "DM Sans Bold";
+    src: url("./DMsans/dm-sans-latin-700.woff");
+}
+
+@font-face {
+    font-family: "DM Serif Text";
+    src: url("./DMSerifText/dm-serif-text-latin-400.woff");
+}

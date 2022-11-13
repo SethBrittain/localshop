@@ -1,0 +1,11 @@
+<h3 class="m-3">Search Results For "Coffee Beans"</h3>
+<div class="container justify-self-center m-3">
+    <div class="row">
+        <div *ngFor="let product of products" class="shadow btn-outline-secondary m-2 p-4 d-flex flex-column align-items-center col-sm-12 col-lg-4">
+            <img class="d-block" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whitewaternow.com%2Fwp-content%2Fuploads%2F2018%2F11%2Fcoffee-beans-freshness-quality.jpg&f=1&nofb=1&ipt=89869076df94de7ee680397fde8e5a7446fcece8252ac356be31ebc2210e668c&ipo=images"/>
+            <div class="product-title">{{ product.product_name }}</div>
+            <div class="product-price">$ {{ product.product_price }}</div>
+            <div class="d-flex justify-content-around w-100 mt-3"><button class="btn btn-primary w-40">Details</button><button class="btn btn-success w-40">Cart</button></div>
+        </div>
+    </div>
+</div>
